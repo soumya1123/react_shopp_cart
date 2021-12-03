@@ -1,0 +1,29 @@
+import styled from 'styled-components';
+
+
+export const Wrapper = styled.div`
+    display:flex;
+    justify: space-between;
+    font-family: Arial,Helvetica,sans-sarif;
+    border-bottom: 1px solid lightblue;
+    padding-bottom: 20px;
+
+    div{
+        flex:1;
+
+    }
+
+    .information,.button{
+        display:flex;
+        justify-content:space-between;
+
+    }
+
+    img{
+        max-width:80px;
+        max-height:80px;
+        object-fit:cover;
+        margin-left:40px;
+    }
+
+`;
